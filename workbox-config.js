@@ -8,7 +8,6 @@ module.exports = {
   // e.g. if your styles request external resources fonts, images, etc..
   templatedURLs: {
     "mxclientsystem/mxui/mxui.js": "mxui-client-core",
-    "mxclientsystem/mxui/ui/mxui.css": "mxui-styling",
     "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700":
       "font-set-1",
   },
