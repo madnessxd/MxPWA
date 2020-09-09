@@ -30,9 +30,9 @@ In this __How to!__ we'll see how we can convert our mendix app to a PWA and ena
 
 __>>__ Copy the following files in the `MX_APP_ROOT_FOLDER/theme` folder:
 
-* [robots.txt](https://github.com/omnajjar/MxPWA/blob/master/robots.txt), [learn more](https://support.google.com/webmasters/answer/6062608).
+* [robots.txt](https://github.com/madnessxd/MxPWA/blob/master/robots.txt), [learn more](https://support.google.com/webmasters/answer/6062608).
 
-* [manifest.json](https://github.com/omnajjar/MxPWA/blob/master/manifest.json), [learn more](https://developer.mozilla.org/en-US/docs/Web/Manifest).
+* [manifest.json](https://github.com/madnessxd/MxPWA/blob/master/manifest.json), [learn more](https://developer.mozilla.org/en-US/docs/Web/Manifest).
 ```js
 //manifest.json
 {
@@ -58,9 +58,9 @@ __>>__ Copy the following files in the `MX_APP_ROOT_FOLDER/theme` folder:
   "background_color": "#ffffff"
 }
 ```
-* [logo.png](https://github.com/omnajjar/MxPWA/blob/master/logo.png) your app's logo.
+* [logo.png](https://github.com/madnessxd/MxPWA/blob/master/logo.png) your app's logo.
 
-* [swRegister.js](https://github.com/omnajjar/MxPWA/blob/master/swRegister.js) this script will register the service worker in the browser.
+* [swRegister.js](https://github.com/madnessxd/MxPWA/blob/master/swRegister.js) this script will register the service worker in the browser.
 
 __>>__ Copy the following files in the `MX_APP_ROOT_FOLDER` folder:
 
