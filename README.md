@@ -3,7 +3,7 @@
 In this __How to!__ we'll see how we can convert our mendix app to a PWA and enable precaching for the static resources using [Workbox](https://developers.google.com/web/tools/workbox/).
 
 <p align='center'>
-<img src='https://github.com/omnajjar/MxPWA/blob/development/mendix_pwa.png' width="375px" alt='logo'>
+<img src='https://github.com/madnessxd/MxPWA/blob/development/mendix_pwa.png' width="375px" alt='logo'>
 </p>
 
 
@@ -64,7 +64,7 @@ __>>__ Copy the following files in the `MX_APP_ROOT_FOLDER/theme` folder:
 
 __>>__ Copy the following files in the `MX_APP_ROOT_FOLDER` folder:
 
-* [workbox-config.js](https://github.com/omnajjar/MxPWA/blob/master/workbox-config.js), the configuration file which will be used by `workbox` to generate the service worker.
+* [workbox-config.js](https://github.com/madnessxd/MxPWA/blob/master/workbox-config.js), the configuration file which will be used by `workbox` to generate the service worker.
 
 > This configurations understand how a mendix application works. However, you can customize it for your app's needs, for more information check [here](https://developers.google.com/web/tools/workbox/modules/workbox-cli#configuration).
 
@@ -116,7 +116,7 @@ __>>__ add the following tags inside your `<head>...</head>` tag:
         <meta name="description" content="This a Mendix PWA Starter App.">
         <meta name="theme-color" content="#ffffff">
         <link rel="manifest" href="/manifest.json">
-        <link rel="apple-touch-icon" href="images/logo192.png">
+        <link rel="apple-touch-icon" href="logo.png">
 ```
 __>>__ add the following `<noscript>...</noscript>` tag inside your `<body>...</body>` tag:
 ```html
@@ -127,16 +127,6 @@ __>>__ add the following `<noscript>...</noscript>` tag inside your `<body>...</
             </div>
         </noscript>
 ```
-__>>__ add the following script inside your `<body>...</body>` tag:
-```html
-        <noscript>
-            <div class="noscript-container">
-                <h3>Please enable javascript in your browser</h3>
-                <h4><a class="mx-link" href='https://www.wikihow.com/Enable-JavaScript'>How to enable javascript in my browser</a></h4>
-            </div>
-        </noscript>
-```
-
 __>>__ add the following script before the closing `body` tag:
 ```html
       ....
@@ -144,7 +134,7 @@ __>>__ add the following script before the closing `body` tag:
       </body>
       ....
 ```
-Your `index.html` file should look like this example file: [index.example.html](https://github.com/omnajjar/MxPWA/blob/master/index.example.html).
+Your `index.html` file should look like this example file: [index.example.html](https://github.com/madnessxd/MxPWA/blob/master/index.example.html).
 > **Note**: If you're targeting IOS devices, please consider checking this [article](https://medium.com/appscope/designing-native-like-progressive-web-apps-for-ios-1b3cdda1d0e8) as well, as we are here focusing on android devices.
 
 **3.** Generating service worker using workbox.
