@@ -116,6 +116,7 @@ __>>__ add the following tags inside your `<head>...</head>` tag:
         <meta name="description" content="This a Mendix PWA Starter App.">
         <meta name="theme-color" content="#ffffff">
         <link rel="manifest" href="/manifest.json">
+        <link rel="apple-touch-icon" href="images/logo192.png">
 ```
 __>>__ add the following `<noscript>...</noscript>` tag inside your `<body>...</body>` tag:
 ```html
