@@ -74,6 +74,10 @@ module.exports = {
   globPatterns: [
     "**/*.{json,png,css,ico,jpg,gif,html,js,eot,svg,ttf,woff,woff2,txt,xml}",
   ],
+  globIgnores: [
+    "preview/*",
+    "index-example.html"
+  ],
   // set URLs that served by the server and you do nt have direct access to them from within your project.
   // e.g. in a mendix application the client js & css
   // e.g. if your styles request external resources fonts, images, etc..
