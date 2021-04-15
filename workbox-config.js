@@ -36,4 +36,9 @@ module.exports = {
   ignoreURLParametersMatching: [/./], // this is needed to ignore mx cache busting
   cleanupOutdatedCaches: true,
   cacheId: "MxApp-Cache",
+  // the following options make it possible to enable skipWaiting so that newer version of the service worker
+  // get activated immediately, rather than waiting until a user closes the app. By default both values are set
+  // to false, both need to be set to true if you wish to enforce refresh immediately after receiving updates
+  skipWaiting: false,
+  clientsClaim: false
 };
