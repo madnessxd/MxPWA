@@ -72,7 +72,7 @@ __>>__ Copy the following files in the `MX_APP_ROOT_FOLDER` folder:
 module.exports = {
   globDirectory: "deployment/web", // as the static resources will be
   globPatterns: [
-    "**/*.{json,png,css,ico,jpg,gif,html,js,eot,svg,ttf,woff,woff2,txt,xml}",
+    "**/*.{png,ico,jpg,gif,eot,svg,ttf,woff,woff2,txt}",
   ],
   globIgnores: [
     "preview/*",
